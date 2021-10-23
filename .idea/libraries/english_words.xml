@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="english-words">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/words_dictionary.zip!/" />
+      <root url="jar://$PROJECT_DIR$/words_alpha.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
