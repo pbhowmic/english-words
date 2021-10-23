@@ -54,10 +54,10 @@ if __name__ == '__main__':
 
     ctr = 0
     with open('words_alpha.txt') as word_file:
-        valid_words: List[str] = word_file.read().split()
+        dictionary: List[str] = word_file.read().split()
 
     for c in combos(args.letters):
-        english_words = load_words(len(c), valid_words)
+        english_words = load_words(len(c), dictionary)
         print(c)
         words_found = filter_by_letterset(c, english_words)
         for w in words_found:
